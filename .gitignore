@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- PyCharm / IDE ----
+.idea/
+*.iml
+.vscode/
+
+# ---- 密钥与配置（务必忽略！）----
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 日志与输出 ----
+*.log
